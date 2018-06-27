@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="43407" started-at="2018-06-27T12:55:02Z" finished-at="2018-06-27T12:55:45Z">
+    <groups>
+    </groups>
+    <test name="Test list" duration-ms="43407" started-at="2018-06-27T12:55:02Z" finished-at="2018-06-27T12:55:45Z">
+      <class name="com.demo.testcases.CheckOutTest">
+        <test-method status="PASS" signature="startSettings()[pri:0, instance:com.demo.testcases.CheckOutTest@29ee9faa]" name="startSettings" is-config="true" duration-ms="108" started-at="2018-06-27T18:25:02Z" finished-at="2018-06-27T18:25:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSettings -->
+        <test-method status="PASS" signature="beforeStartTest(java.lang.reflect.Method)[pri:0, instance:com.demo.testcases.CheckOutTest@29ee9faa]" name="beforeStartTest" is-config="true" duration-ms="13973" started-at="2018-06-27T18:25:02Z" finished-at="2018-06-27T18:25:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.testcases.CheckOutTest.prescribeAndCheckout() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeStartTest -->
+        <test-method status="PASS" signature="prescribeAndCheckout()[pri:0, instance:com.demo.testcases.CheckOutTest@29ee9faa]" name="prescribeAndCheckout" duration-ms="27970" started-at="2018-06-27T18:25:16Z" finished-at="2018-06-27T18:25:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prescribeAndCheckout -->
+        <test-method status="PASS" signature="afterStartTest()[pri:0, instance:com.demo.testcases.CheckOutTest@29ee9faa]" name="afterStartTest" is-config="true" duration-ms="2" started-at="2018-06-27T18:25:44Z" finished-at="2018-06-27T18:25:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterStartTest -->
+        <test-method status="PASS" signature="endingSettings()[pri:0, instance:com.demo.testcases.CheckOutTest@29ee9faa]" name="endingSettings" is-config="true" duration-ms="1342" started-at="2018-06-27T18:25:44Z" finished-at="2018-06-27T18:25:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endingSettings -->
+      </class> <!-- com.demo.testcases.CheckOutTest -->
+    </test> <!-- Test list -->
+  </suite> <!-- Default Suite -->
+</testng-results>

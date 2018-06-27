@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]">
+  <test name="Test list(failed)">
+    <classes>
+      <class name="com.demo.testcases.CheckOutTest">
+        <methods>
+          <include name="startSettings"/>
+          <include name="prescribeAndCheckout"/>
+          <include name="endingSettings"/>
+          <include name="beforeStartTest"/>
+          <include name="afterStartTest"/>
+        </methods>
+      </class> <!-- com.demo.testcases.CheckOutTest -->
+    </classes>
+  </test> <!-- Test list(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
